@@ -241,7 +241,12 @@ body {
 }
 
 .button {
+  display: block;
   padding: 16px 32px;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
   border-style: solid;
   border-width: 4px;
   border-color: #fff;
@@ -362,7 +367,11 @@ body {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 1;
+  z-index: -100;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
 }
 
 .lottie-animation {
@@ -1125,10 +1134,7 @@ body {
 }
 
 .mint-form {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   padding-top: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1214,7 +1220,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: -3px;
-  display: none;
+  display: block;
   overflow: visible;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
