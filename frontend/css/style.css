@@ -6,8 +6,8 @@
 
 :root {
   --font-primary: "Nanum Pen Script", cursive;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
+  --font-secondary: "Nanum Pen Script", cursive;
+  --font-code: "Nanum Pen Script", cursive;
   --bg-color: #00163f;
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
