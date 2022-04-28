@@ -346,6 +346,10 @@ section {
   .menu {
     gap: 1rem;
   }
+  .logo img {
+    width: 10vw;
+    margin-right: 10vw;
+}
   .wallet-btn {
     margin-left: 0;
     padding: 0.5rem 1rem;
@@ -395,8 +399,3 @@ section {
   display: none;
 }
 
-@media screen and (max-width: 768px)
-.logo img {
-    width: 10vw;
-    margin-right: 10vw;
-}
