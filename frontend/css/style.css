@@ -346,14 +346,18 @@ section {
   .menu {
     gap: 1rem;
   }
+  .menu img {
+    width: 5vw;
+  }
   .logo img {
-    width: 15vw;
-    margin-right: 10vw;
+    width: 20vw;
+    margin-right: 0vw;
 }
   .wallet-btn {
     margin-left: 0;
     padding: 0.5rem 1rem;
     max-width: 8rem;
+    font-size: 0.75rem;
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
