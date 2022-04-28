@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     perMove: 3,
     pagination: false,
     autoplay: true,
-    direction: 'ltr',
+    direction: 'ttb',
     height: "calc(100vh - 90px)",
     width: '30vw',
     autoHeight: true,
