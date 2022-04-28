@@ -397,6 +397,6 @@ section {
 
 @media screen and (max-width: 768px)
 .logo img {
-    width: 25vw;
+    width: 10vw;
     margin-right: 10vw;
 }
