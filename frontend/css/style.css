@@ -394,3 +394,9 @@ section {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 768px)
+.logo img {
+    width: 25vw;
+    margin-right: 10vw;
+}
