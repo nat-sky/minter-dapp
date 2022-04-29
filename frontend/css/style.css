@@ -361,10 +361,11 @@ section {
     font-size: 0.75rem;
   }
   .not-connected {
-    background-color: var(--bg-color-transparent);
-    border-radius: 75px;
-    padding: 2rem;
+    background-color: #ffffff;
+    /* border-radius: 75px; */
+    /* padding: 2rem; */
     margin: 0 auto;
+    height: 1000vh;
   }
   .countdown ul {
     display: grid;
