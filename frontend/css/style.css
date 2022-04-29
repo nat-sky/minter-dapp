@@ -363,10 +363,20 @@ section {
   .not-connected {
     background-color: #ffffff;
     /* border-radius: 75px; */
-    padding: 0 0 0 0;
+    padding: 1rem;
     margin: 0 auto;
     height: 1000vh;
+    width: 100%;
   }
+
+  .not-connected h1 {
+    font-size: 2rem;
+  }
+
+  /* .not-connected h2 {
+    font-size: rem;
+  } */
+
   .countdown ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
