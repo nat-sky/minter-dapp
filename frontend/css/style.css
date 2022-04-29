@@ -81,7 +81,7 @@ header .container {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .not-connected p {
@@ -370,7 +370,7 @@ section {
   }
 
   .not-connected h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   /* .not-connected h2 {
