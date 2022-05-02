@@ -187,7 +187,7 @@ section {
 }
 .countdown .clock-item .count-number {
   background: var(--accent-color);
-  color: var(--font-color);
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-primary);
