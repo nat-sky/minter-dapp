@@ -220,7 +220,7 @@ section {
 }
 
 .countdown h2 {
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .countdown > p {
@@ -402,7 +402,7 @@ section {
     margin: 1rem 0;
   }
   .countdown h2 {
-    padding-top: 0.5rem;
+    padding-top: 0rem;
   }
   .countdown p {
     font-size: 1rem;
